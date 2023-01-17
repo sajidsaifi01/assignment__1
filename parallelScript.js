@@ -4,7 +4,7 @@ time-intervals, the second script needs to get this number from redis as soon as
 pushes it and print it. (e.g. one script says 'sent 2332' the other says 'received 2332').*/ 
 
 
-const redis = require('redis');
+const redis = require('redis'); 
 const fetch = require('node-fetch');
 
 

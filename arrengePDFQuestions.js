@@ -1,6 +1,6 @@
 /* Q4) Write the smallest possible python / Nodejs script, which parses this file and puts the
 questions in correct order into another file. Your approach should be generic with minimal
-assumptions.*/ 
+assumptions.*/  
 const fs = require("fs");
 const pdfParse = require("pdf-parse");
 const PDFDocument = require('pdfkit');

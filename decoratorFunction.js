@@ -3,7 +3,7 @@ or (KoaJS Controller), returns 405 HTTP error on a GET request but behaves norma
 POST.*/
 
 
-const Koa = require('koa');
+const Koa = require('koa'); 
 const Router = require('@koa/router');
 const render = require('koa-ejs');
 const path = require('path');
